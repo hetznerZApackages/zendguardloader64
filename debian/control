@@ -1,0 +1,14 @@
+Source: zendguardloader64
+Section: web
+Priority: extra
+Maintainer: Walter Kleynscheldt - Hetzner ZA <walter.kleynscheldt@hetzner.co.za>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.zend.com
+
+Package: zendguardloader64
+Architecture: amd64
+Depends: ${misc:Depends}
+Description: Zend Guard
+ Decodes files encrypted with Zend Guard.
+ Homepage: http://www.zend.com
