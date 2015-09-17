@@ -1,3 +1,9 @@
+zendguardloader64 (6.0.0-1+hetz5~exp1) jessie-hetz-experimental; urgency=low
+
+  * Import for jessie 
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Thu, 17 Sep 2015 16:18:27 +0200
+
 zendguardloader64 (6.0.0-1+hetz4) wheezy-hetz; urgency=low
 
   * Released 6.0.0-1+hetz4~exp1 as 6.0.0-1+hetz4
