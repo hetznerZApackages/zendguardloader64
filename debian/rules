@@ -35,7 +35,6 @@ install:
 	# Add here commands to install the package into debian/zendoptimizer.
 	mkdir -p $(CURDIR)/debian/zendguardloader64/usr/lib/php5/20131226/
 	cp $(CURDIR)/zend-loader-php5.6-linux-x86_64/ZendGuardLoader.so $(CURDIR)/debian/zendguardloader64/usr/lib/php5/20131226/
-	cp $(CURDIR)/zend-loader-php5.6-linux-x86_64/opcache.so $(CURDIR)/debian/zendguardloader64/usr/lib/php5/20131226/
 
 
 
