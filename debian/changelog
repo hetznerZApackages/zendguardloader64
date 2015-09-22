@@ -1,3 +1,9 @@
+zendguardloader64 (7.0.4-1+hetz1) jessie-hetz; urgency=low
+
+  * Released 7.0.4-1+hetz1~exp1 as 7.0.4-1+hetz1
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Tue, 22 Sep 2015 14:02:47 +0200
+
 zendguardloader64 (7.0.4-1+hetz1~exp1) jessie-hetz-experimental; urgency=low
 
   * Import upstream for php5.6 support
