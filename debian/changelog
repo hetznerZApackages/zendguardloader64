@@ -1,3 +1,9 @@
+zendguardloader64 (7.0.4-1+hetz2~exp3) jessie-hetz-experimental; urgency=low
+
+  * Add binaries to debian/source/include-binaries
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Tue, 11 Jul 2017 14:31:34 +0200
+
 zendguardloader64 (7.0.4-1+hetz2~exp2) jessie-hetz-experimental; urgency=low
 
   * Add readme file
