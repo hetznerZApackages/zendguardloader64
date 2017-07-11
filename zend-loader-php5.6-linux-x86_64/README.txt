@@ -37,29 +37,3 @@ Installing Zend Guard Loader for any PHP-NTS distribution:
 7. Check that loader and opcache are both loaded ( phpinfo() ) or php -v
 
 8. Run your encoded files
-
-
-Installing Zend Guard Loader on top of Zend Server 8.0.2:
-=========================================================
-Linux/Mac
----------
-1.Extract the Zend Loader package that corresponds to your php version and OS arch. 
-2.Locate folder /usr/local/zend/lib/php_extensions and overwrite opcache.so while adding in ZendGuardLoader.so
-3.Open your /usr/local/zend/etc/conf.d/opcache.ini file.
-	Before the directive zend_extension=/usr/local/zend/lib/php_extensions/opcache.so add the following line (at the very beginning of the file):
-        zend_extension=/usr/local/zend/lib/php_extensions/ZendGuardLoader.so
-      
-4.Restart Zend Server.
-5.If all is well as it should be the Zend Guard Loader section will be present on Overview -> Server Info page
-
-Windows
--------
-Main steps:
-1.Extract the Zend Loader package that corresponds to your php version and OS arch. 
-2.Locate folder C:\Program Files (x86)\Zend\ZendServer\lib\phpext and overwrite php_opcache.dll while adding in ZendLoader.dll.
-3.Open your php ini file.
-        Locate the opcache section starting with the directive zend_extension="C:\Program Files (x86)\Zend\ZendServer\lib\phpext\php_opcache.dll"
-        Add the following line into your php.ini file just before the located opcache directive (at the very beginning of opcache section):
-        zend_extension="C:\Program Files (x86)\Zend\ZendServer\lib\phpext\ZendLoader.dll"
-4.Restart Zend Server.
-5.If all is well as it should be the Zend Guard Loader section will be present on Overview -> Server Info page
