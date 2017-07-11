@@ -1,3 +1,9 @@
+zendguardloader64 (7.0.4-1+hetz2~exp4) jessie-hetz-experimental; urgency=low
+
+  * Readd README.txt to docs
+
+ -- Walter Kleynscheldt <walter.kleynscheldt@hetzner.co.za>  Tue, 11 Jul 2017 14:54:18 +0200
+
 zendguardloader64 (7.0.4-1+hetz2~exp3) jessie-hetz-experimental; urgency=low
 
   * Bump version
